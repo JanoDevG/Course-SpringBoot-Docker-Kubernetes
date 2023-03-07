@@ -17,6 +17,7 @@
 
     <modules>
         <module>../ms-customer</module>
+        <module>../ms-courses</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
