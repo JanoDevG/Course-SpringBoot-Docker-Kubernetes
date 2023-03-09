@@ -1,10 +1,11 @@
 package cl.janodevg.ms.courses.mscourses.entity;
 
 import jakarta.persistence.*;
+import org.springframework.http.HttpStatusCode;
 
 @Entity
 @Table(name = "courses")
-public class Course {
+public class Course{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
